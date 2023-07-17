@@ -34,7 +34,7 @@ public final class PMPLUS extends JavaPlugin {
         getCommand("reply").setExecutor(new REPLYCOMMAND());
         getCommand("pmplus").setExecutor(new RELOADCOMMAND());
 
-        new updatechecker(this, 12345).getVersion(version -> {
+        new updatechecker(111300).getVersion(version -> {
             if (this.getDescription().getVersion().equals(version)) {
                 getLogger().info("[PM+] NEW UPDATE AVAILABE " + getDescription());
             } else {
