@@ -2,6 +2,8 @@
 
 A plugin that allows players to private message others freely in your server 
 every week should drop a new release
+everything in config is editable from permissions to messages 
+
 
 
 --- COMMANDS
@@ -12,12 +14,9 @@ every week should drop a new release
 /socialspy (aliases: /spy , /ss, ALLOW YOU TO SPY ON PLAYERS THAT MESSAGE OTHERS)
 
 
-------------------------------------------
+
 player = %player% (the player that runs the command)
 target - %target% (the player that got messaged)
 message - %message% (the message of player)
-------------------------------------------
 
-everything in config is editable from permissions to messages 
 
-sp
