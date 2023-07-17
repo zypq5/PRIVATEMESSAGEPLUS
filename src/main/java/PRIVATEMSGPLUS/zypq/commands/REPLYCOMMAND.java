@@ -14,7 +14,7 @@ public class REPLYCOMMAND implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender,@NotNull Command command,@NotNull String label, String[] args) {
         if (sender instanceof Player player) {
             if (args.length == 0) {
-                player.sendMessage(PMPLUS.format("<red>Invalid argument"));
+                player.sendMessage(PMPLUS.format("<red>Invalid argumet"));
             }else{
                 Player target = Bukkit.getPlayer(MESSAGECOMMAND.PM_PLUS.get(player.getUniqueId()));
                 if (target == null) {
