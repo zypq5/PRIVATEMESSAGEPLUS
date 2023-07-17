@@ -32,7 +32,7 @@ public final class PMPLUS extends JavaPlugin {
         getCommand("message").setExecutor(new MESSAGECOMMAND());
         getCommand("socialspy").setExecutor(new SocialSpyCommand());
         getCommand("reply").setExecutor(new REPLYCOMMAND());
-        getCommand("pmplus").setExecutor(new RELOADCOMMAND(this));
+        getCommand("pmplus").setExecutor(new RELOADCOMMAND());
 
         new updatechecker(this, 12345).getVersion(version -> {
             if (this.getDescription().getVersion().equals(version)) {
